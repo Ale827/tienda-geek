@@ -1,0 +1,101 @@
+
+.banner-seccion{
+    width: 100vw;
+    height: 352px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../multimedia/banner.png) no-repeat center / cover;
+}
+
+.banner-container{
+    width: 71rem;
+    height: 10.625rem;
+    padding-top: 150px;
+    padding-bottom: 32px;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.banner-container h1{
+    font-family: 'Raleway';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+
+    color:#ffffff;
+}
+
+.banner-container h3{
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+
+    color:#ffffff;
+}
+
+.btn-banner{
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color:#ffffff;
+    cursor: pointer;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+}
+
+.btn-banner:hover{
+    background: transparent;
+    border: 1px solid #1e60b6;
+    box-shadow: 0 0 15px 5px #2A7AE4;
+}
+
+@media screen and (max-width:1024px) {
+   
+    .banner-container{
+        width: 44rem;
+    }
+    
+
+}
+@media screen and (max-width:440px) {
+    .banner-seccion{
+        display: flex;
+        height: 12rem;
+        flex-direction: column-reverse;
+        padding-bottom: 16px;
+    }
+    .banner-container{
+        width: 20.5rem;
+        height: 6.125rem;
+        padding: 0;
+        
+        gap: 8px;
+    }
+    
+    .banner-container h1{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .banner-container h3{
+        font-size: 14px;
+        line-height: 1rem;
+    }
+
+    .btn-banner{
+        width: 7.375rem;
+        height: 2.5rem;
+    }
+
+}

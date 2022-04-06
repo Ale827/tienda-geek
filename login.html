@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/bases.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="shortcut icon" href="/assets/multimedia/logo-joystick.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="caja">
+            <div class="barra__busqueda">
+                <div class="logo">
+                    <a class="inicio" href="index.html"><img src="/assets/multimedia/Logo-footer.png" alt="logo" /></a>
+                </div>
+                <form class="form">
+                    <input id="search" type="text" name="buscar" placeholder="Click me. . ." class="busqueda" />
+                    <button class="btn-submit" type="submit">
+                        <img src="assets/multimedia/lupa.png" alt="upa" />
+                    </button>
+                </form>
+            </div>
+            <button class="btn-login">Login</button>
+        </nav>
+    </header>
+    <main>
+        <section class="container__login">
+            <form class="login">
+                <h1 class="titulo-principal">Iniciar Sesión</h1>
+                <input class="input-padron" type="email" placeholder="Escriba su correo electronico" required>
+                <input class="input-padron" type="password" placeholder="Escriba su contraseña" required>
+                <input class="btn-entrar" type="submit" value="Entrar">
+
+
+
+            </form>
+
+        </section>
+        <footer>
+            <section class="footer">
+
+                <div class="footer__contenido">
+                    <img src="/assets/multimedia/Logo-footer.png" alt="logo" />
+                    <ul class="footer__contenido-links">
+                        <li class="footer__contenido-enlaces"><a href="#">Quienes somos</a></li>
+                        <li class="footer__contenido-enlaces"><a href="#">Politica de privacidad</a></li>
+                        <li class="footer__contenido-enlaces"><a href="#">Programa de fidelidad</a></li>
+                        <li class="footer__contenido-enlaces"><a href="#">Nuestras tiendas</a></li>
+                        <li class="footer__contenido-enlaces"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="footer__contenido-enlaces"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+
+                    <form class="footer__contenido-contacto">
+                        <h2>Hable con nosotros</h2>
+                        <label class="label">Nombre <input type="text" class="input" /></label>
+                        <textarea class="mensaje" name="" id="" cols="30" rows="10"
+                            placeholder="Escribe tu mensaje"></textarea>
+                        <input class="btn-contacto" type="button" value="Enviar Mensaje" />
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="rodapie">
+                    <h2>Desarrollado por Alejandro-Bordón &copy;</h2>
+                    <h4>2022</h4>
+                </div>
+            </section>
+        </footer>
+    </main>
+    <script src="/js/buscar.js"></script>
+</body>
+
+</html>
