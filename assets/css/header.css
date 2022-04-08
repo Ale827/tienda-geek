@@ -134,12 +134,13 @@
     right: 0px;
   }
   .btn-login {
-    width: 8.3125rem;
+    width: 6rem;
     height: 2.5rem;
 
     font-weight: 600;
     position: absolute;
     right: 18%;
+    top:5.5%;
   }
   
 }
