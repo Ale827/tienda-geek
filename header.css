@@ -1,0 +1,146 @@
+.caja {
+  width: 71rem;
+  height: 115px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra__busqueda {
+  display: flex;
+  gap: 32px;
+}
+
+.form {
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  align-items: center;
+}
+
+.busqueda {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: #f5f5f5;
+  outline: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 0 16px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  color: #2a7ae4;
+  font-size: 16px;
+  line-height: 19px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.busqueda:focus {
+  width: 293px;
+}
+
+.busqueda::placeholder {
+  color: #a2a2a2;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-submit {
+  border: none;
+  background: transparent;
+  padding-right: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.inicio{
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 11.375rem;
+  height: 3.1875rem;
+  background: transparent;
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #2a7ae4;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+
+.btn-login:hover {
+  background: #2a7ae4;
+  color: #f5f5f5;
+  transform: scale(1.025);
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  -o-transform: scale(1.025);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .caja {
+    width: 47rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .caja {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    height: 2.25rem;
+    padding-left: 1.4375rem;
+  }
+  .form {
+    background: transparent;
+  }
+  .busqueda {
+    display: none;
+  }
+  .btn-submit {
+    position: absolute;
+    right: 0px;
+  }
+  .btn-login {
+    width: 6rem;
+    height: 2.5rem;
+
+    font-weight: 600;
+    position: absolute;
+    right: 18%;
+    top:5.5%;
+  }
+  
+}
