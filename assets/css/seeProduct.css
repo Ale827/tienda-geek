@@ -1,0 +1,54 @@
+.config__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.container__img {
+  background: url('../multimedia/starwars/1ra.png') no-repeat 100%/cover ;
+  width: 560px;
+  height: 403px;
+  border: 1px solid blue;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 560px;
+  height: 210px;
+  border: 1px solid blue;
+}
+
+.info h2 {
+  font-family: "Raleway";
+  font-size: 52px;
+  font-weight: 700;
+  color: #464646;
+}
+
+.info h3 {
+  font-family: "Raleway";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #464646;
+}
+.info p {
+  font-family: "Raleway";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #464646;
+}
+
+.relacionados {
+  gap: 0.5rem;
+}
+
+.title__relacionados {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 700;
+  color: #464646;
+}

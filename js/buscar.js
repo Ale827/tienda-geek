@@ -1,4 +1,4 @@
-var buscar = document.getElementById('search');
+const buscar = document.getElementById('search');
 
  buscar.addEventListener('focus',function(){
     document.getElementsByName('buscar')[0].placeholder='¿Que desea buscar?';

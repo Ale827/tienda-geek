@@ -9,6 +9,7 @@ export function createList(lista, items) {
     const link = document.createElement("a");
 
     item.classList.add("container__cards-productos");
+    link.classList.add('seeProduct')
 
     img.src = items[i].image;
     nombreProducto.textContent = items[i].titulo;
@@ -26,6 +27,8 @@ export function createList(lista, items) {
 
   lista.appendChild(preList);
 }
+
+
 
 export const listaStarwars = document.querySelector("[data-list-starwars]");
 export const listaConsolas = document.querySelector("[data-list-consolas]");

@@ -1,11 +1,13 @@
 import Producto from "./producto.js";
 
+// listas de productos
+
 export const starWars = [
   new Producto(
     "assets/multimedia/starwars/1ra.png",
     "Producto XYZ",
     "$60.00",
-    "#"
+    "product.html"
   ),
   new Producto(
     "assets/multimedia/starwars/2da.png",
@@ -116,3 +118,5 @@ export const diversos = [
     "#"
   ),
 ];
+
+// listas de enlaces del footer
